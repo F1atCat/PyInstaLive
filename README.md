@@ -2,23 +2,23 @@
 ![Version 3.2.4](https://img.shields.io/badge/Version-3.2.4-orange.svg)
 ![Python 2.7, 3.5](https://img.shields.io/badge/Python-2.7%2C%203.5%2B-3776ab.svg)
 
-[![Support me!](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/dvingerh)
+This Python script enables you to download any ongoing Instagram livestreams as well as any available replays. It is a fork of the discontinued [PyInstaLive version 3.2.4](https://github.com/dvingerh/PyInstaLive), which itself was based on [another script](https://github.com/taengstagram/instagram-livestream-downloader) that has also been discontinued. 
 
+This fork adds the following feature:
+- Display the mpd URL of the current livestream in the log output.
 
-This Python script enables you to download any ongoing Instagram livestreams as well as any available replays. It is based on [another script](https://github.com/taengstagram/instagram-livestream-downloader) that has now been discontinued.
-
-![](https://raw.githubusercontent.com/notcammy/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
+![](https://raw.githubusercontent.com/f1atcat/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
 
 
 ## Table of Contents
-- [Features](https://github.com/notcammy/PyInstaLive#features)
-- [Quickstart](https://github.com/notcammy/PyInstaLive#quickstart)
-- [Installation](https://github.com/notcammy/PyInstaLive#installation)
-- [Usage](https://github.com/notcammy/PyInstaLive#usage)
-- [Notes](https://github.com/notcammy/PyInstaLive#notes)
-- [Help](https://github.com/notcammy/PyInstaLive#help)
+- [Features](https://github.com/f1atcat/PyInstaLive#features)
+- [Quickstart](https://github.com/f1atcat/PyInstaLive#quickstart)
+- [Installation](https://github.com/f1atcat/PyInstaLive#installation)
+- [Usage](https://github.com/f1atcat/PyInstaLive#usage)
+- [Notes](https://github.com/f1atcat/PyInstaLive#notes)
+- [Help](https://github.com/f1atcat/PyInstaLive#help)
 
-![](https://raw.githubusercontent.com/notcammy/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
+![](https://raw.githubusercontent.com/f1atcat/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
 
 ## Main Features
 
@@ -28,17 +28,17 @@ PyInstaLive is capable of downloading:
 - Livestream and replay comments.
 - Available livestreams and replays from your following user feed, concurrently.
 
-![](https://raw.githubusercontent.com/notcammy/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
+![](https://raw.githubusercontent.com/f1atcat/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
 
 ## Quickstart
 
-- [Read the Notes & Help sections below (important!)](https://github.com/notcammy/PyInstaLive#notes)
+- [Read the Notes & Help sections below (important!)](https://github.com/f1atcat/PyInstaLive#notes)
 - Install the prerequisites and then PyInstaLive.
 - Run `pyinstalive` to generate a default configuration file.
 - Edit the configuration file using any text editor.
 - Run `pyinstalive -d "<live-username>"` to start downloading a livestream or replay.
 
-![](https://raw.githubusercontent.com/notcammy/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
+![](https://raw.githubusercontent.com/f1atcat/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
 
 ## Prerequisites
 
@@ -49,7 +49,7 @@ PyInstaLive is capable of downloading:
 
 Make sure all tools are accessible via command line (added to your PATH if on Windows, use Google).
 
-![](https://raw.githubusercontent.com/notcammy/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
+![](https://raw.githubusercontent.com/f1atcat/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
 
 ## Installation
 
@@ -59,7 +59,7 @@ Make sure all tools are accessible via command line (added to your PATH if on Wi
 
 Run the following command in your command line (might need to be run as administrator on Windows):
 ```bash
-pip install git+https://github.com/notcammy/PyInstaLive.git@3.2.4
+pip install git+https://github.com/f1atcat/PyInstaLive.git@3.2.4
 ```
 
 #### Updating
@@ -67,7 +67,7 @@ pip install git+https://github.com/notcammy/PyInstaLive.git@3.2.4
 To update PyInstaLive to the latest version (currently **3.2.4**) run the following command:
 
 ```bash
-pip install git+https://github.com/notcammy/PyInstaLive.git@3.2.4 --upgrade
+pip install git+https://github.com/f1atcat/PyInstaLive.git@3.2.4 --upgrade
 ```
 
 #### Specific versions
@@ -75,12 +75,12 @@ pip install git+https://github.com/notcammy/PyInstaLive.git@3.2.4 --upgrade
 If you want to install a specific version of PyInstaLive when for example the newest version contains a bug, you can specify a different version tag in the install command:
 
 ```bash
-pip install git+https://github.com/notcammy/PyInstaLive.git@2.2.0
+pip install git+https://github.com/f1atcat/PyInstaLive.git@2.2.0
 ```
 
 Use the version number you want after the **@** symbol (e.g **@2.2.0**).
 
-![](https://raw.githubusercontent.com/notcammy/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
+![](https://raw.githubusercontent.com/f1atcat/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
 
 ## Usage
 
@@ -156,19 +156,19 @@ Below is an example of PyInstaLive's output after downloading a livestream:
 ---------------------------------------------------------------------------
 ```
 
-![](https://raw.githubusercontent.com/notcammy/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
+![](https://raw.githubusercontent.com/f1atcat/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
 
 ## Notes
-- I have not much time to extensively test the changes I make to the code, so when you do encounter a problem please [open an issue](https://github.com/notcammy/PyInstaLive/issues/new) and try using an older version of PyInstaLive in the meantime.
+- I have not much time to extensively test the changes I make to the code, so when you do encounter a problem please [open an issue](https://github.com/f1atcat/PyInstaLive/issues/new) and try using an older version of PyInstaLive in the meantime.
 
 - Python 2 cannot save most unicode characters in comments such as emojis if it's not built from source using the `--enable-unicode=ucs4` argument. Read more about this [here](https://emoji-unicode.readthedocs.io/en/latest/python2.html). This should probably not affect pre-installed Python 2 installations on Linux-based systems such as Ubuntu or Debian.
 
-![](https://raw.githubusercontent.com/notcammy/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
+![](https://raw.githubusercontent.com/f1atcat/PyInstaLive/5907fc866446d5f426389a5198560075848d770e/.github/spacer.png)
 
 
 ## Help
-You can find a list of frequently asked questions [here](https://github.com/notcammy/PyInstaLive/blob/master/FAQ.md).
+You can find a list of frequently asked questions [here](https://github.com/f1atcat/PyInstaLive/blob/master/FAQ.md).
 
-You can find a list of available commands and an explanation of the configuration file [here](https://github.com/notcammy/PyInstaLive/blob/master/MOREHELP.md).
+You can find a list of available commands and an explanation of the configuration file [here](https://github.com/f1atcat/PyInstaLive/blob/master/MOREHELP.md).
 
-If you would like to report a bug or ask a question please [open an issue](https://github.com/notcammy/PyInstaLive/issues/new).
+If you would like to report a bug or ask a question please [open an issue](https://github.com/f1atcat/PyInstaLive/issues/new).
