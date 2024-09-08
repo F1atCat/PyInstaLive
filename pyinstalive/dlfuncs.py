@@ -199,6 +199,9 @@ def download_livestream():
         mpd_url = (pil.livestream_obj.get('dash_manifest')
                    or pil.livestream_obj.get('dash_abr_playback_url')
                    or pil.livestream_obj.get('dash_playback_url'))
+        
+        # Log the MPD URL
+        logger.info('MPD URL      : {:s}'.format(mpd_url if mpd_url else 'No MPD URL found'))
 
         pil.live_folder_path = '{}{}_{}_{}_{}_live_downloads'.format(pil.dl_path, pil.datetime_compat, pil.dl_user,
                                                      pil.livestream_obj.get('id'), pil.epochtime)
