@@ -11,7 +11,6 @@ This fork adds the following feature:
 
 
 ## Table of Contents
-- [Features](https://github.com/f1atcat/PyInstaLive#features)
 - [Quickstart](https://github.com/f1atcat/PyInstaLive#quickstart)
 - [Installation](https://github.com/f1atcat/PyInstaLive#installation)
 - [Usage](https://github.com/f1atcat/PyInstaLive#usage)
